@@ -7,6 +7,7 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
+
 public class PutMenu {
     private long num;
     private String menu;

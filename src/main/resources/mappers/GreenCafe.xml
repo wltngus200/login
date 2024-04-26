@@ -44,3 +44,4 @@
         WHERE num=#{num}
     </select>
 </mapper>
+<!--쿼리문을 작성하는 곳-->

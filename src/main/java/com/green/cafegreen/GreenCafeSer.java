@@ -24,5 +24,5 @@ public class GreenCafeSer {
     }
     GetOneMenu seeOneMenu(long num){
         return mapper.seeOneMenu(num);
-    }
+    }//잡다한 일을 다 한다
 }

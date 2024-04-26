@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 
 import java.util.List;
 
+
 @Mapper
 public interface GreenCafe {
     int newMenu(PostMenu p);
@@ -16,4 +17,4 @@ public interface GreenCafe {
     int fixMenu(PutMenu p);
     List<GetAllMenu> seeAllMenu();
     GetOneMenu seeOneMenu(long num);
-}
+}//인터페이스, 영향받은 행을 리턴하고, 내용을 보여준다

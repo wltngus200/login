@@ -38,5 +38,4 @@ public class GreenCafeCon {
     GetOneMenu seeOneMenu(@PathVariable long num){
         return service.seeOneMenu(num);
     }
-
-}
+}//지시를 내리는 부분
